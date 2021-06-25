@@ -14,6 +14,6 @@ cropping2D to crop the image of 70 percent from the top and 20 percent from the 
 The final step was to run the simulator to see how well the car was driving around
 track one. There were a few spots where the vehicle fell off the tracks and i used the other
 datasets to improve behavior in these cases. I also used other two dataset to improve the
-driving performance of the vehicle. The datasets are:
-● Two laps of center lane line dataset
-● Dataset from the project resources. <p>
+driving performance of the vehicle. The datasets are: </p>
+<p>● Two laps of center lane line dataset</p>
+<p>● Dataset from the project resources. </p>
