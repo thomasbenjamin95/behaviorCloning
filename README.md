@@ -1,6 +1,6 @@
 # behaviorCloning
 # <h2><u>solution Design Approach</u></h2>
-# <p>The overall strategy for deriving a model architecture was to drive the car
+<p>The overall strategy for deriving a model architecture was to drive the car
 autonomously through the track.
 My first step was to use a convolutional neural network model similar to the
 network we used to train the images in order to identity the images with appropriate labels. I
