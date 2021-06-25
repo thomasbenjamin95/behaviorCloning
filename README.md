@@ -37,5 +37,5 @@ To augment the dataset, i also flipped images and angles thinking that this woul
 understanding for the neural network to learn things. For example, here is an image that has
 then been flipped:
 The first picture is the original picture and the second picture is flipped one.
-After the collection process, i had 60,000 above samples. I then preprocessed this data by using
+  After the collection process, i had 60,000 above samples. I then preprocessed this data by using</p>
 
