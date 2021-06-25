@@ -28,6 +28,5 @@ connected until it reaches the with value 1. Adam optimizer is used as the algor
 not want to tune the learning rates. The training model is split into validation mode l of sample
 by 20 percent.The number of epochs is 5.</P>
 <h2>creation of the Training Set and Training Process</h2>
-
-<img src="![image](https://user-images.githubusercontent.com/86484259/123454015-16e40480-d5ae-11eb-9bc6-48d6f3e709ea.png)"
+![image](https://user-images.githubusercontent.com/86484259/123454015-16e40480-d5ae-11eb-9bc6-48d6f3e709ea.png)
 
