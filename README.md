@@ -26,4 +26,7 @@ convolutional2D with strides of (2,2) and filter size of 24,36,48,64 and 64. For
 to reduce overfitting both relu and dropout have been used. Then the model is flatten and fully
 connected until it reaches the with value 1. Adam optimizer is used as the algorithm since we do
 not want to tune the learning rates. The training model is split into validation mode l of sample
-by 20 percent.The number of epochs is 5.</P
+by 20 percent.The number of epochs is 5.</P>
+<h2>creation of the Training Set and Training Process</h2>
+
+
