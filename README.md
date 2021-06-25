@@ -37,5 +37,10 @@ To augment the dataset, i also flipped images and angles thinking that this woul
 understanding for the neural network to learn things. For example, here is an image that has
 then been flipped:
 The first picture is the original picture and the second picture is flipped one.
-  After the collection process, i had 60,000 above samples. I then preprocessed this data by using</p>
+  After the collection process, i had 60,000 above samples. I then preprocessed this data by using lamba layer of values 127.5 and subtracting with standard deviation of 1.
+I finally randomly shuffled the data set and put 20% of data into validation set.
+I used this training data for training the model. The validation set helped determine if the model
+was over or underfitting. The ideal number of epochs was 5 as evidenced by the python
+file(model.py 133). I used an adam optimizer so that manually training the learning rate wasn't
+necessary.</p>
 
