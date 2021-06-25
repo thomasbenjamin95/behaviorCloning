@@ -28,5 +28,14 @@ connected until it reaches the with value 1. Adam optimizer is used as the algor
 not want to tune the learning rates. The training model is split into validation mode l of sample
 by 20 percent.The number of epochs is 5.</P>
 <h2>creation of the Training Set and Training Process</h2
-<img src="https://user-images.githubusercontent.com/86484259/123455005-2fa0ea00-d5af-11eb-8de4-4d21282ccc96.png">
+This is a 320*160 image.
+I then recorded the vehicle recovering from the left side and right sides of the road back to
+center so that the vehicle would learn to adjust by itself to center when driving autonomously.
+These images shows what a recover looks like starting from:
+This images are center camera image.
+To augment the dataset, i also flipped images and angles thinking that this would improve better
+understanding for the neural network to learn things. For example, here is an image that has
+then been flipped:
+The first picture is the original picture and the second picture is flipped one.
+After the collection process, i had 60,000 above samples. I then preprocessed this data by using
 
