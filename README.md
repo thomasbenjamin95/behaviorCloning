@@ -27,8 +27,8 @@ to reduce overfitting both relu and dropout have been used. Then the model is fl
 connected until it reaches the with value 1. Adam optimizer is used as the algorithm since we do
 not want to tune the learning rates. The training model is split into validation mode l of sample
 by 20 percent.The number of epochs is 5.</P>
-
-<p>After the collection process, i had 60,000 above samples. I then preprocessed this data by using
+<h2>creation of Training Set and Training Process</h2>
+<p> During the training process (Collecting data by driving through the roads), I adopted a recovery mechanism for car by recovering the car from comming back to track when it start to goes off track. To augment the dataset, i flipped images and angles for better building of neural networks. After the collection process, i had 60,000 above samples. I then preprocessed this data by using
 lamba layer of values 127.5 and subtracting with standard deviation of 1.
 I finally randomly shuffled the data set and put 20% of data into validation set.
 I used this training data for training the model. The validation set helped determine if the model
