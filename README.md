@@ -17,3 +17,13 @@ datasets to improve behavior in these cases. I also used other two dataset to im
 driving performance of the vehicle. The datasets are:
 <br>● Two laps of center lane line dataset.
 <br>● Dataset from the project resources. </p>
+# <h2><u>final Model Architecture</u></h2>
+<p>The final model architecture(model.py line 90-112) consisted of a convolutional
+neural network with the following layers and layer sizes of (160,320,3) as input. Used lamba for
+normalization of the images. After normalizing the images, the images will be cropped using
+cropping2D of 70 percent from the top and 20 percent from the bottom. Then i used five
+convolutional2D with strides of (2,2) and filter size of 24,36,48,64 and 64. For non linearity and
+to reduce overfitting both relu and dropout have been used. Then the model is flatten and fully
+connected until it reaches the with value 1. Adam optimizer is used as the algorithm since we do
+not want to tune the learning rates. The training model is split into validation mode l of sample
+by 20 percent.The number of epochs is 5.</P
